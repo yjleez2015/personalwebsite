@@ -73,11 +73,12 @@
 
 .about p {
   font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 1.8;
   color: #666;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
+  text-indent: 2rem;
 }
 
 .highlights h2 {

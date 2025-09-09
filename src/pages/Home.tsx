@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div className="home">
       <section className="hero">
-        <h1>Welcome to My Website</h1>
+        <h1>YongJae Lee</h1>
         <p className="hero-subtitle">
-          I'm a [Your Title/Role] passionate about [Your Interests/Field]
+          Computer Science Student & Software Engineer passionate about AI and Systems Programming
         </p>
         <div className="hero-buttons">
           <a href="/resume" className="btn primary">View Resume</a>
@@ -17,8 +17,11 @@ export default function Home() {
       <section className="about">
         <h2>About Me</h2>
         <p>
-          Write a brief introduction about yourself here. Talk about your background,
-          interests, and what visitors can expect to find on your website.
+          I'm a Computer Science student at Johns Hopkins University with a minor in Physics, graduating in May 2026. 
+          I'm passionate about AI/ML, systems programming, and building efficient software solutions. 
+          Currently conducting research in Dr. Mallada's Control and Dynamical Systems group, focusing on advanced 
+          MPC algorithms. I love working on challenging projects from GPU-accelerated machine learning to 
+          low-level systems programming.
         </p>
       </section>
 
@@ -27,15 +30,15 @@ export default function Home() {
         <div className="highlight-grid">
           <div className="highlight-card">
             <h3>Experience</h3>
-            <p>Brief overview of your professional experience</p>
+            <p>AWS SDE Intern (2025), Research Assistant at JHU, Course Assistant, and international internship experience</p>
           </div>
           <div className="highlight-card">
             <h3>Skills</h3>
-            <p>Key skills and technologies you work with</p>
+            <p>Proficient in Java, TypeScript, C/C++; experienced with Python, CUDA, AWS, and modern web technologies</p>
           </div>
           <div className="highlight-card">
             <h3>Projects</h3>
-            <p>Notable projects you've worked on</p>
+            <p>KorGPT.c (GPT-2 in C/CUDA), Educational Physics Engine, and various systems programming projects</p>
           </div>
         </div>
       </section>
