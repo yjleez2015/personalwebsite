@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 export default function Home() {
@@ -5,8 +6,8 @@ export default function Home() {
     <div className="home">
       <h1>YongJae Lee</h1>
       <div className="links">
-        <a href="/resume">Resume</a>
-        <a href="/blog">Blog</a>
+        <Link to="/resume">Resume</Link>
+        <Link to="/blog">Blog</Link>
       </div>
     </div>
   );
